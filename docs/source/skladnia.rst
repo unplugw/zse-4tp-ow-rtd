@@ -1,63 +1,95 @@
 Składnia elementów dokumentu
 ===========================
 
-Nagłówki:
----------
+Nagłówki tekstowe (poziomy 1-4)
+--------------------------------
 
-# Poziom 1: =======
-# Poziom 2: -------
-# Poziom 3: ~~~~~~~
-# Poziom 4: ^^^^^^^
+Poziom 1
+========
 
-Akapit:
+Poziom 2
 --------
 
-To jest zwykły akapit tekstu.
+Poziom 3
+~~~~~~~~
 
-Note / Tip:
------------
+Poziom 4
+^^^^^^^^
 
-.. note::  
-   To jest akapit informacyjny (Note).
+Akapit tekstowy (treść)
+-----------------------
 
-Fragment kodu:
---------------
+To jest zwykły akapit tekstu. Możesz w nim pisać normalnie, w kilku liniach,  
+Sphinx automatycznie łączy je w jeden blok.
 
-Inline: ``print("Hello")``
+Akapit informacyjny (Note, Tip)
+--------------------------------
 
-Blok:
+.. note::
+   To jest akapit informacyjny typu Note.
+
+.. tip::
+   To jest akapit typu Tip.
+
+Fragment kodu (liniowy, blokowy)
+--------------------------------
+
+Inline (liniowy): ``print("Hello World")``
+
+Blokowy:
 
 .. code-block:: python
 
-   print("Hello World")
+   # To jest blok kodu
+   for i in range(3):
+       print(i)
 
-Listy:
-------
+Odnośniki (lokalny RtD, zewnętrzny)
+-----------------------------------
+
+- Lokalny: :doc:`autor`  
+- Zewnętrzny: `Google <https://www.google.com>`_
+
+Listy (numerowana, wypunktowana, definicji)
+-------------------------------------------
 
 - Lista wypunktowana
 - Kolejny element
+- Jeszcze jeden
 
 1. Lista numerowana
-2. Kolejny element
+2. Drugi element
+3. Trzeci element
 
-Linki:
-------
+Terminy i definicje:
 
-- Lokalny: :doc:`skladnia`
-- Zewnętrzny: `Google <https://www.google.com>`_
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-Obraz:
-------
+   * - Termin
+     - Definicja
+   * - Python
+     - Język programowania używany w tym projekcie
+   * - RtD
+     - Platforma do tworzenia dokumentacji
 
-.. image:: picture.jpg
-   :alt: Alternatywny tekst
-   :caption: Podpis obrazu
+Obraz (z alternatywnym tekstem oraz podpisem)
+--------------------------------------------
 
-Tabela (przykład):
-------------------
+.. image:: picture.png
+   :alt: Przykładowy obraz
+   :width: 400px
+   :align: center
+   :caption: Podpis pod obrazkiem
 
-+---------+--------+
-| Kolumna | Kolumna|
-+=========+========+
-| 1       | 2      |
-+---------+--------+
+Tabela (przykład)
+-----------------
+
++-----------+-----------+
+| Kolumna 1 | Kolumna 2 |
++===========+===========+
+| Wiersz 1  | Dane      |
++-----------+-----------+
+| Wiersz 2  | Dane      |
++-----------+-----------+
