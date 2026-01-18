@@ -49,7 +49,7 @@ Linki:
 Obraz:
 ------
 
-.. image:: obraz.png
+.. image:: picture.jpg
    :alt: Alternatywny tekst
    :caption: Podpis obrazu
 
