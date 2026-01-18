@@ -77,11 +77,8 @@ Terminy i definicje:
 Obraz (z alternatywnym tekstem oraz podpisem)
 --------------------------------------------
 
-.. figure:: _static/picture.jpg
+.. figure:: picture.jpg
    :alt: Przykładowy obraz
-   :width: 400px
-   :align: center
-   :caption: Podpis pod obrazkiem
 
 Tabela (przykład)
 -----------------
