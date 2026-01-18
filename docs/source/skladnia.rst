@@ -77,8 +77,10 @@ Terminy i definicje:
 Obraz (z alternatywnym tekstem oraz podpisem)
 --------------------------------------------
 
-.. figure:: picture.jpg
+.. figure:: ./picture.jpg
    :alt: Przykładowy obraz
+
+   Podpis opisujący obraz umieszczony poniżej grafiki.
 
 Tabela (przykład)
 -----------------
