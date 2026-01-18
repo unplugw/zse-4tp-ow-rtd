@@ -77,7 +77,7 @@ Terminy i definicje:
 Obraz (z alternatywnym tekstem oraz podpisem)
 --------------------------------------------
 
-.. image:: picture.png
+.. image:: picture.jpg
    :alt: Przykładowy obraz
    :width: 400px
    :align: center
