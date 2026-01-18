@@ -80,7 +80,7 @@ Obraz (z alternatywnym tekstem oraz podpisem)
 .. figure:: ./picture.jpg
    :alt: Przykładowy obraz
 
-   Podpis opisujący obraz umieszczony poniżej grafiki.
+   Napis pod obrazem.
 
 Tabela (przykład)
 -----------------
